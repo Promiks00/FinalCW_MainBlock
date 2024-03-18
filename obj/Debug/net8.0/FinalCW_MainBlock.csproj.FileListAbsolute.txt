@@ -1,0 +1,15 @@
+D:\!GB\I_MainBlock\FinalCW_MainBlock\bin\Debug\net8.0\FinalCW_MainBlock.exe
+D:\!GB\I_MainBlock\FinalCW_MainBlock\bin\Debug\net8.0\FinalCW_MainBlock.deps.json
+D:\!GB\I_MainBlock\FinalCW_MainBlock\bin\Debug\net8.0\FinalCW_MainBlock.runtimeconfig.json
+D:\!GB\I_MainBlock\FinalCW_MainBlock\bin\Debug\net8.0\FinalCW_MainBlock.dll
+D:\!GB\I_MainBlock\FinalCW_MainBlock\bin\Debug\net8.0\FinalCW_MainBlock.pdb
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\FinalCW_MainBlock.GeneratedMSBuildEditorConfig.editorconfig
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\FinalCW_MainBlock.AssemblyInfoInputs.cache
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\FinalCW_MainBlock.AssemblyInfo.cs
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\FinalCW_MainBlock.csproj.CoreCompileInputs.cache
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\FinalCW_MainBlock.sourcelink.json
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\FinalCW_MainBlock.dll
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\refint\FinalCW_MainBlock.dll
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\FinalCW_MainBlock.pdb
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\FinalCW_MainBlock.genruntimeconfig.cache
+D:\!GB\I_MainBlock\FinalCW_MainBlock\obj\Debug\net8.0\ref\FinalCW_MainBlock.dll

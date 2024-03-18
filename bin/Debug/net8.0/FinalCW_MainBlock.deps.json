@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FinalCW_MainBlock/1.0.0": {
+        "runtime": {
+          "FinalCW_MainBlock.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinalCW_MainBlock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
