@@ -24,6 +24,28 @@ string[] CreateArray()
 }
 
 string[] array = CreateArray();
-string str = string.Join(", ", array);
-System.Console.WriteLine("Введенные Вами значения: " + "[" + str + "]");
+
+void PrintArray(string[] array)
+{
+    string str = string.Join(", ", array);
+    System.Console.WriteLine("Введенные Вами значения: " + "[" + str + "]");
+}
+
+PrintArray(array);
+
+void ModifyArray(string[] array)
+{
+    int count = new Random().Next(0,4);
+    string[] array2 = new string[count];
+    for(int i=0; i<array2.Length; i++)
+    {
+        int rand = new Random().Next(0,array.Length);
+        array2[i] = array[rand];
+    }
+    string str2 = string.Join(", ", array2);
+    System.Console.WriteLine("Значения нового массива: " + "[" + str2 + "]");
+}
+
+ModifyArray(array);
+
 
