@@ -35,12 +35,23 @@ PrintArray(array);
 
 void ModifyArray(string[] array)
 {
-    int count = new Random().Next(0,4);
-    string[] array2 = new string[count];
-    for(int i=0; i<array2.Length; i++)
+    int count = 0;
+    for(int i=0; i<array.Length; i++)
     {
-        int rand = new Random().Next(0,array.Length);
-        array2[i] = array[rand];
+        if (array[i].Length <= 3)
+        {
+            count++;
+        }
+    }
+    string[] array2 = new string[count];
+    int j = 0;
+    for(int i=0; i<array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+            {
+            array2[j] = array[i];
+            j += 1;
+            }
     }
     string str2 = string.Join(", ", array2);
     System.Console.WriteLine("Значения нового массива: " + "[" + str2 + "]");
