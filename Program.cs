@@ -15,9 +15,9 @@ string[] CreateArray()
     int num = Convert.ToInt32(Console.ReadLine());
     string[] array = new string[num];
 
-    for(int i=0; i<array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        System.Console.Write($"Введите значение {i+1}-го элемента массива: ");
+        System.Console.Write($"Введите значение {i + 1}-го элемента массива: ");
         array[i] = Console.ReadLine();
     }
     return array;
@@ -36,7 +36,7 @@ PrintArray(array);
 void ModifyArray(string[] array)
 {
     int count = 0;
-    for(int i=0; i<array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
         {
@@ -45,13 +45,13 @@ void ModifyArray(string[] array)
     }
     string[] array2 = new string[count];
     int j = 0;
-    for(int i=0; i<array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
-            {
+        {
             array2[j] = array[i];
             j += 1;
-            }
+        }
     }
     string str2 = string.Join(", ", array2);
     System.Console.WriteLine("Значения нового массива: " + "[" + str2 + "]");

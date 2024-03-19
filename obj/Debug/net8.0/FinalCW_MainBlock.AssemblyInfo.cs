@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinalCW_MainBlock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5890561730c57524fddc1e3ae1751a388aeb852")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09474221cae14f201b5581348131f42b7ee4e3f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinalCW_MainBlock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinalCW_MainBlock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
