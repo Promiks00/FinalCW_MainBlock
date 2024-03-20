@@ -10,14 +10,74 @@
 
 ## Примеры
 
-- Ввод: ["Hello", "2", "world", ":-)"]
-  Вывод: ["2", ":-)"]
+- Ввод: ["Hello", "2", "world", ":-)"]  
+  __Вывод: ["2", ":-)"]__
 
-- Ввод: ["1234", "1567", "-2", "computer science"]
-  Вывод: ["-2"]
+- Ввод: ["1234", "1567", "-2", "computer science"]  
+  __Вывод: ["-2"]__
 
-- Ввод: ["Russia", "Denmark", "Kazan"]
-  Вывод: []
+- Ввод: ["Russia", "Denmark", "Kazan"]  
+  __Вывод: []__
+
+## Описание решения
+Данная программа состоит из трех последовательно выполняемых функций:  
+1. **`CreateArray()`**: Эта функция отвечает за создание массива строк. Она запрашивает у пользователя количество элементов массива и затем последовательно запрашивает значения каждого элемента, сохраняя их в массиве. После завершения ввода функция возвращает созданный массив, который сохраняем в переменной `string[] array`.
+```c#
+string[] CreateArray()
+{
+    Console.Write("Введите количество элементов массива: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+    string[] array = new string[num];
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.Write($"Введите значение {i + 1}-го элемента массива: ");
+        array[i] = Console.ReadLine();
+    }
+    return array;
+}
+
+string[] array = CreateArray();
+```
+2. **`PrintArray()`**: Эта функция отвечает за вывод исходного массива на экран. Она объединяет элементы массива в одну строку и выводит её на консоль.
+```c#
+void PrintArray(string[] array)
+{
+    string str = string.Join(", ", array);
+    System.Console.WriteLine("Введенные Вами значения: " + "[" + str + "]");
+}
+
+PrintArray(array);
+```
+3. **`ModifyArray()`**: В этой функции происходит модификация исходного массива. Она создает новый массив, содержащий только те строки исходного массива, длина которых не превышает 3 символа. После этого новый массив выводится на экран.
+```c#
+void ModifyArray(string[] array)
+{
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            count++;
+        }
+    }
+    string[] array2 = new string[count];
+    int j = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            array2[j] = array[i];
+            j += 1;
+        }
+    }
+    string str2 = string.Join(", ", array2);
+    System.Console.WriteLine("Значения нового массива: " + "[" + str2 + "]");
+}
+
+ModifyArray(array);
+```
+
 
 ## Примечания
 
